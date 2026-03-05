@@ -1,0 +1,30 @@
+.flexbox-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.box_common {
+    width: 30%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    flex: 1;
+    text-align: center;
+    border: 5px solid black;
+}
+
+
+.sub-container img {
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 500px) {
+    .flexbox-container {
+        flex-direction: column;
+        /* this is how to mkae them fit/flex vertically */
+        height: 100vh;
+    }
+}

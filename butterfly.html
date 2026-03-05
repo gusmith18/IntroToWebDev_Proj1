@@ -5,12 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Butterflies!</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
-    <a href="index.html">[Bugs]</a>
-    <a href="spider.html">[Spiders]</a>
-    <a href="butterfly.html">[Butterflies]</a>
+    <div>
+        <a href="index.html">[Bugs]</a>
+        <a href="spider.html">[Spiders]</a>
+        <a href="butterfly.html">[Butterflies]</a>
+    </div>
     <header>
         <h1>Butterflies!</h1>
     </header>
@@ -25,30 +28,41 @@
     </div>
     <hr>
 
-    <div>
-        <h3>Some of my favorite butterflies!</h3>
-        <div>
+    <h3>Some of my favorite butterflies!</h3>
+
+    <div class="flexbox-container">
+
+        <div class="box_common">
             <h4>Monarch Butterfly</h4>
-            <img src="image/monarch_butterfly.jpg" alt="Monarch Butterfly">
+            <div class="sub-container">
+                <img src="image/monarch_butterfly.jpg" alt="Monarch Butterfly">
+            </div>
             <p>The monarch butterfly is a well-known species that is found in North America. It is famous for its
                 incredible migration journey, which can span thousands of miles.</p>
         </div>
-        <div>
+        <div class="box_common">
             <h4>Swallowtail Butterfly</h4>
-            <img src="image/swallow_tail.jpg" alt="Swallowtail Butterfly">
+            <div class="sub-container">
+                <img src="image/swallow_tail.jpg" alt="Swallowtail Butterfly">
+            </div>
             <p>Swallowtail butterflies are a family of butterflies that are known for their distinctive tail-like
                 extensions on their wings. They are found in various habitats around the world.</p>
         </div>
-        <div>
+
+        <div class="box_common">
             <h4>Blue Morpho Butterfly</h4>
-            <img src="image/blue_morpho.jpg" alt="Blue Morpho Butterfly">
+            <div class="sub-container">
+                <img src="image/blue_morpho.jpg" alt="Blue Morpho Butterfly">
+            </div>
             <p>The blue morpho butterfly is a species that is found in Central and South America. It is known for its
                 vibrant blue wings, which are a result of microscopic scales that reflect light.</p>
+        </div>
+
     </div>
 
-    <footer>
-        <p>I hope you enjoyed learning about butterflies!</p>
-    </footer>
+        <footer>
+            <p>I hope you enjoyed learning about butterflies!</p>
+        </footer>
 </body>
 
 
